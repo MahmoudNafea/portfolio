@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 
 const app = express();
-const publicPath = path.join(__dirname, '', 'front/build')
+const publicPath = path.join(__dirname, '', 'build')
 app.use(express.static(publicPath))
 
 app.get('*', (req, res) => {
