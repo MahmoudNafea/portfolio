@@ -1,5 +1,5 @@
 import React from 'react';
-import myphoto from './../../src/img/myphoto.jpg'
+import myphoto from './../img/myphoto.jpg'
 
 const AboutPage = () => {
     return (
