@@ -2,11 +2,16 @@
 //  *{
 // color: $brand-color
 // }
+html {
+    font-size: 62.5%;
+  }
+
 body{
     background-color: #36064f;
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
     text-align: center;
+    font-size: 2rem;
 
 }
 .toolbar{

@@ -3,8 +3,10 @@ import React from 'react';
 const WorkPage = () => {
     return (
         <div>
+            <h2>My employers</h2>
+            <div>
 
-            <p>Work experiences</p>
+            </div>
         </div>
     )
 }
