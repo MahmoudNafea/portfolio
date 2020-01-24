@@ -30,7 +30,6 @@ const WorkPage = () => {
                 </a>
                 <p>Quality assurance specialist for six months ensures the procedures
                      and final product meet the client’s requirements.</p>
-
             </div>
         </div >
     )
