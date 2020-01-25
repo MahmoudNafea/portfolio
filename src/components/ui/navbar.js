@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
-import FadeMenu from './ui/menu'
+import FadeMenu from './menu';
 
 
 const useStyles = makeStyles(theme => ({
@@ -36,11 +36,11 @@ const Navbar = () => {
                 <Typography variant="h6" className={classes.title}>
 
                 </Typography>
-                <Button component={Link} to='/' color="inherit">Home</Button>
-                <Button component={Link} to='/about' color="inherit">About</Button>
-                <Button component={Link} to='/work' color="inherit">Work</Button>
-                <Button component={Link} to='/contact' color="inherit">Contact</Button>
-                <Button component={Link} to='/login' color="inherit">Login</Button>
+                <Button className="nav-button" component={Link} to='/' color="inherit" >Home</Button>
+                <Button className="nav-button" component={Link} to='/about' color="inherit">About</Button>
+                <Button className="nav-button" component={Link} to='/work' color="inherit">Work</Button>
+                <Button className="nav-button" component={Link} to='/contact' color="inherit">Contact</Button>
+                <Button className="nav-button" component={Link} to='/login' color="inherit">Login</Button>
             </Toolbar>
         </AppBar>
     )

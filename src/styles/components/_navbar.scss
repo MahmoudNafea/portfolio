@@ -1,0 +1,24 @@
+.toolbar{
+    background-color: #610746;
+    color:white;
+
+}
+
+.button{
+    color: white;
+    display: none;
+}
+
+@media(max-width:360px){
+    // .navbar{
+    //     display: none;
+    // }
+    .button{
+        color: white !important;
+        display: inherit;
+    }
+    .nav-button{
+        display: none !important;
+
+    }
+}

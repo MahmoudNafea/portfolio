@@ -14,22 +14,3 @@ body{
     font-size: 2rem;
 
 }
-.toolbar{
-    background-color: #610746;
-    color:white;
-
-}
-
-.button{
-    color: white;
-    display: none;
-}
-@media(max-width:700px){
-    .navbar{
-        display: none;
-    }
-    .button{
-        color: white;
-        display: inherit;
-    }
-}
