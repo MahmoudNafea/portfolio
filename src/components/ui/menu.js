@@ -20,7 +20,7 @@ export default function FadeMenu() {
 
     return (
         <div className="button">
-            <Button aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick} className="button" >
+            <Button aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick} className="port-button" >
                 Portfolio
            </Button>
             <Menu

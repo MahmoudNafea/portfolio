@@ -3,19 +3,13 @@
     color:white;
 
 }
-
-.button{
-    color: white;
-    display: none;
+.port-button{
+    display: none !important;
 }
-
 @media(max-width:360px){
-    // .navbar{
-    //     display: none;
-    // }
-    .button{
+    .port-button{
         color: white !important;
-        display: inherit;
+        display: inherit !important;
     }
     .nav-button{
         display: none !important;
