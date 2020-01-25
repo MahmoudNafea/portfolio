@@ -6,7 +6,8 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import FadeMenu from './ui/menu'
 
 
 const useStyles = makeStyles(theme => ({
@@ -25,13 +26,13 @@ const Navbar = () => {
     const classes = useStyles();
 
     return (
-        <AppBar position="static" >
+        <AppBar className="navbar" position="static" >
             <Toolbar className="toolbar" >
-                <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                    {/* <MenuIcon /> */}
-                    Nafea
+                {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu"> */}
+                {/* <MenuIcon /> */}
+                <FadeMenu />
 
-                </IconButton>
+                {/* </IconButton> */}
                 <Typography variant="h6" className={classes.title}>
 
                 </Typography>
