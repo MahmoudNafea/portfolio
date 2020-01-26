@@ -1,11 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 import Navbar from './components/ui/navbar';
 import HomePage from './components/home';
 import AboutPage from './components/about';
 import WorkPage from './components/work';
 import ContactPage from './components/contact';
 import LoginPage from './components/login';
+
+
 
 
 function App() {
