@@ -1,48 +1,43 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import { Link } from 'react-router-dom';
-import FadeMenu from './menu';
+import Background from './../background';
+
+// import { Link } from 'react-router-dom';
+// import FadeMenu from './menu';
 
 
-const useStyles = makeStyles(theme => ({
-    root: {
-        flexGrow: 1,
-    },
-    menuButton: {
-        marginRight: theme.spacing(2),
-    },
-    title: {
-        flexGrow: 1,
-    },
-}));
 
 const Navbar = () => {
-    const classes = useStyles();
 
     return (
-        <AppBar className="navbar" position="static" >
-            <Toolbar className="toolbar" >
-                {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu"> */}
-                {/* <MenuIcon /> */}
-                <FadeMenu />
+        <div>
+            <nav className="navbar navbar-expand-sm navbar-light bg-light">
+                <div className="container">
+                    <a className="home-style navbar-brand" href="/">NAVBAR</a>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
 
-                {/* </IconButton> */}
-                <Typography variant="h6" className={classes.title}>
+                    <div className="collapse navbar-collapse " id="navbarNav">
+                        <ul className="navbar-nav ml-auto">
+                            <a className="btn-style nav-item nav-link" href="/">HOME <span className="sr-only">(current)</span></a>
+                            <li >
+                                <a className="btn-style nav-item nav-link" href="/about">MY STORY</a>
+                            </li>
+                            <li >
+                                <a className="btn-style nav-item nav-link" href="/work">WORK</a>
+                            </li>
+                            <li >
+                                <a className="btn-style nav-item nav-link" href="/contact">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-                </Typography>
-                <Button className="nav-button" component={Link} to='/' color="inherit" >Home</Button>
-                <Button className="nav-button" component={Link} to='/about' color="inherit">About</Button>
-                <Button className="nav-button" component={Link} to='/work' color="inherit">Work</Button>
-                <Button className="nav-button" component={Link} to='/contact' color="inherit">Contact</Button>
-                <Button className="nav-button" component={Link} to='/login' color="inherit">Login</Button>
-            </Toolbar>
-        </AppBar>
+            </nav>
+
+        </div>
+
     )
 }
 
