@@ -1,5 +1,5 @@
 import React from 'react';
-import Background from './../background';
+// import Background from './../background';
 
 // import { Link } from 'react-router-dom';
 // import FadeMenu from './menu';
