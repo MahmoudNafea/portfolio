@@ -59,7 +59,7 @@ const WorkPage = () => {
                             </div>
                             <div className="card-text ">
                                 <p> Pure QA for six months</p>
-                                <a href="https://www.nbe.com.eg/Main.aspx" className="btn btn-success">Visit the company</a>
+                                <a href="http://www.cced.gov.eg/ar/" className="btn btn-success">Visit the company</a>
                             </div>
 
                         </div>
