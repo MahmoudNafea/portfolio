@@ -2,7 +2,6 @@ import React from 'react';
 import accenture from './../img/accenture.jpg'
 import spectrum from './../img/spectrum.jpg'
 import topelectric from './../img/topelectric.jpg'
-import Projects from './projects';
 
 
 const WorkPage = () => {
@@ -66,7 +65,6 @@ const WorkPage = () => {
 
                     </div>
                 </div >
-                <Projects />
             </div>
 
         </React.Fragment>
