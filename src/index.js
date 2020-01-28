@@ -2,10 +2,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-// import '~bootstrap/scss/bootstrap.scss';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/scss/bootstrap.scss';
+// 
 
-import './styles/styles.scss';
+
+// import './styles/styles.scss';
 
 import 'normalize.css/normalize.css';
 import * as serviceWorker from './serviceWorker';

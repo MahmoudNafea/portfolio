@@ -5,6 +5,7 @@ import Navbar from './components/ui/navbar';
 import HomePage from './components/home';
 import AboutPage from './components/about';
 import WorkPage from './components/work';
+// import WorkCard from './components/work-card';
 import ContactPage from './components/contact';
 import LoginPage from './components/login';
 import Projects from './components/projects';
