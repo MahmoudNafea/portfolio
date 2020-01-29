@@ -1,12 +1,12 @@
 import React from 'react';
-import { Navbar, Form, FormControl, Nav, Button } from 'react-bootstrap';
+import { Navbar, Form, FormControl, Nav, Button, Container } from 'react-bootstrap';
 // import Background from './../background';
 
 const NavbarPage = () => {
 
     return (
-        <div className="container">
-            <Navbar bg="light" expand="md">
+        <Container>
+            <Navbar bg="light" expand="sm">
                 <Navbar.Brand href="/">Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -17,14 +17,9 @@ const NavbarPage = () => {
                         <Nav.Link href="/projects">Projects</Nav.Link>
                         <Nav.Link href="/contact">Contact</Nav.Link>
                     </Nav>
-                    <Form inline>
-                        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="outline-success">Search</Button>
-                    </Form>
                 </Navbar.Collapse>
             </Navbar>
-        </div>
-    )
+        </Container>)
 }
 
 export default NavbarPage
