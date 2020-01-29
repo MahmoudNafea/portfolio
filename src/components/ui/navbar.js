@@ -1,51 +1,30 @@
 import React from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { Navbar, Form, FormControl, Nav, Button } from 'react-bootstrap';
 // import Background from './../background';
 
-
-
-
-
-const Navbar = () => {
+const NavbarPage = () => {
 
     return (
-        <React.Fragment>
-            <div>
-                <nav className="navbar navbar-expand-md navbar-light bg-light">
-                    <div className="container">
-                        <a className="home-style navbar-brand" href="/">PORTFOLIO</a>
-                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon" > </span>
-                        </button>
-
-                        <div className="collapse navbar-collapse " id="navbarNav">
-                            <ul className="navbar-nav ml-auto">
-                                <a className="btn-style nav-item nav-link" href="/">HOME <span className="sr-only">(current)</span></a>
-                                <li >
-                                    <a className="btn-style nav-item nav-link" href="/about">MY STORY</a>
-                                </li>
-                                <li >
-                                    <a className="btn-style nav-item nav-link" href="/work">WORK</a>
-                                </li>
-                                <li >
-                                    <a className="btn-style nav-item nav-link" href="/projects">PROJECTS</a>
-                                </li>
-                                <li >
-                                    <a className="btn-style nav-item nav-link" href="/contact">CONTACT</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </nav>
-
-            </div>
-
-        </React.Fragment>
+        <div className="container">
+            <Navbar bg="light" expand="md">
+                <Navbar.Brand href="/">Portfolio</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ml-auto">
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
+                        <Nav.Link href="/work">Work</Nav.Link>
+                        <Nav.Link href="/projects">Projects</Nav.Link>
+                        <Nav.Link href="/contact">Contact</Nav.Link>
+                    </Nav>
+                    <Form inline>
+                        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+                        <Button variant="outline-success">Search</Button>
+                    </Form>
+                </Navbar.Collapse>
+            </Navbar>
+        </div>
     )
 }
 
-export default Navbar
-
+export default NavbarPage
