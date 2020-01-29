@@ -11,7 +11,7 @@ class HomePage extends Component {
 
     render() {
         return (
-            <div>
+            <div className="container text-center">
                 {/* <Background /> */}
                 <h2 className="title">Hello</h2>
                 <h3 className="sub-title">I'm Mahmoud Elsayed Nafea</h3>

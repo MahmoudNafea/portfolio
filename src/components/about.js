@@ -1,4 +1,5 @@
 import React from 'react';
+import { Image } from 'react-bootstrap/';
 import myphoto from './../img/myphoto.jpg';
 
 
@@ -22,8 +23,8 @@ const AboutPage = () => {
                     </div>
                     <div className="col-sm-5">
                         <div className="img-wrap">
-                            <img src={myphoto}
-                                alt="myphoto" />
+                            <Image src={myphoto}
+                                alt="myphoto" roundedCircle />
                         </div>
                     </div>
 
