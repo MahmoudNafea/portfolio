@@ -24,7 +24,7 @@ const AboutPage = () => {
                     <div className="col-sm-5">
                         <div className="img-wrap">
                             <Image src={myphoto}
-                                alt="myphoto" roundedCircle />
+                                alt="myphoto" fluid roundedCircle className="img" />
                         </div>
                     </div>
 

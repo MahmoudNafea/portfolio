@@ -1,11 +1,29 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
+// @import 'bootstrap/dist/css/bootstrap.min.css';
+@import '~bootstrap/scss/bootstrap.scss';
 
-@import './base/base';
-@import './components/header';
-@import './components/background';
-@import './components/navbar';
-@import './components/about';
+// @import './base/base';
+// @import './components/header';
+// @import './components/background';
+// @import './components/navbar';
+// @import './components/about';
+// .background{
+//     background: #29073b;
+//     // font-family: Arial, Helvetica, sans-serif;
+//     // color: whitesmoke;
+//     // text-align: center;
+//     // font-size: 2rem;
+
+// }
+.img{
+    height: 350px;
+    width: 350px;
+}
+.contact-img{
+    height: 50px;
+    width: 50px; 
+}
 
 
-// @import '~bootstrap/scss/bootstrap.scss';
+
+
 

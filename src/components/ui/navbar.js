@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Form, FormControl, Nav, Button, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 // import Background from './../background';
 
 const NavbarPage = () => {
@@ -19,7 +19,8 @@ const NavbarPage = () => {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        </Container>)
+        </Container >
+    )
 }
 
 export default NavbarPage
