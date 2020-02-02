@@ -9,22 +9,22 @@ const AboutPage = () => {
             <div >
                 <div className="row">
                     <div className="col-sm-7" >
-                        <h1 className="text-center" style={{ marginBottom: 5 + "rem" }}>My story</h1>
+                        <h1 className="text-center" >My story</h1>
 
                         <p >
                             Nice to see you. Let me introduce myself with the basic information about me.
                              I'm Egyptian working now in Malaysia. I've bachelor's degree in science and I'm 27 years old.
-                    </p>
+                       </p>
                         <p >
                             My experience is more than 3 years in technology and business industry.
                              My current employer's Accenture Malaysia as I'm working as data analyst for two years so far.
-                    </p>
+                        </p>
 
                     </div>
                     <div className="col-sm-5">
                         <div className="img-wrap">
                             <Image src={myphoto}
-                                alt="myphoto" fluid roundedCircle className="img" />
+                                alt="myphoto" fluid roundedCircle className="img" style={{ marginTop: 2 + "rem" }} />
                         </div>
                     </div>
 
