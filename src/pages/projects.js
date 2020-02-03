@@ -10,7 +10,10 @@ import reactHooks from './../img/reactHooks.PNG';
 const Projects = () => {
     return (
         <div className="container text-center" >
-            <h2>Some of my projects</h2>
+            <div style={{ margin: '2rem 0' }}>
+                <h2>Projects</h2>
+                <p>Check out some of my projects</p>
+            </div>
             <div className="row">
                 <div className="col-md-4  mb-3">
                     <Card style={{ width: '18rem', height: '23rem' }}>

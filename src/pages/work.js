@@ -7,10 +7,12 @@ import topelectric from './../img/topelectric.jpg'
 const WorkPage = () => {
     return (
         <div className="container text-center">
-            <h2>My previous employers</h2>
+            <div style={{ margin: '2rem 0' }}>
+                <h2 >My employers</h2>
+            </div>
             <div className="row">
                 <div className="col-md-4 col-sm-12 mb-3 ">
-                    <Card style={{ width: '18rem', height: '20rem' }}>
+                    <Card style={{ width: '18rem', height: '21rem' }}>
                         <Card.Img variant="top" style={{ height: '12rem' }} src={accenture} />
                         <Card.Body>
                             <Card.Title>Data analyst</Card.Title>
@@ -22,7 +24,7 @@ const WorkPage = () => {
                     </Card>
                 </div>
                 <div className="col-md-4 col-sm-12 mb-3">
-                    <Card style={{ width: '18rem', height: '20rem' }}>
+                    <Card style={{ width: '18rem', height: '21rem' }}>
                         <Card.Img variant="top" src={spectrum} style={{ height: '12rem' }} />
                         <Card.Body>
                             <Card.Title>Quality assurance</Card.Title>
@@ -34,7 +36,7 @@ const WorkPage = () => {
                     </Card>
                 </div>
                 <div className="col-md-4 col-sm-12 mb-3">
-                    <Card style={{ width: '18rem', height: '20rem' }}>
+                    <Card style={{ width: '18rem', height: '21rem' }}>
                         <Card.Img variant="top" src={topelectric} style={{ height: '12rem' }} />
                         <Card.Body>
                             <Card.Title>Quality assurance</Card.Title>
