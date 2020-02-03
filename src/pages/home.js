@@ -19,7 +19,7 @@ class HomePage extends Component {
                 <h4 className="intro">Software developer && Data analyst </h4>
                 <p className="intro">Thanks for visiting my portfolio. I hope you enjoy your tour through it </p>
                 <div>
-                    <Link to="/about" className="btn btn-primary">About me</Link>
+                    <Link to="/about" className="btn btn-primary">Get started</Link>
                 </div>
             </div >
         )

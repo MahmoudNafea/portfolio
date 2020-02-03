@@ -9,7 +9,7 @@ const AboutPage = () => {
             <div >
                 <div className="row">
                     <div className="col-sm-7" >
-                        <h1 className="text-center" >My story</h1>
+                        <h1 className="text-center" style={{ marginTop: '2rem' }} >My story</h1>
                         <Alert >
                             <Alert.Heading>Nice to see you</Alert.Heading>
                             <p>
