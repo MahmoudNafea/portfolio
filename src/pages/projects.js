@@ -12,22 +12,22 @@ const Projects = () => {
         <div className="container text-center" >
             <h2>Some of my projects</h2>
             <div className="row">
-                <div className="col-md-4">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={burger} />
+                <div className="col-md-4  mb-3">
+                    <Card style={{ width: '18rem', height: '23rem' }}>
+                        <Card.Img variant="top" src={burger} style={{ height: '12rem' }} />
                         <Card.Body>
                             <Card.Title>The Burger</Card.Title>
                             <Card.Text>
-                                Reactjs, Redux, HTML, CSS and Firebase.
+                                Reactjs, Redux, HTML, CSS,Responsive and Firebase.
                             </Card.Text>
                             <Card.Link href="https://theburger-web-app.firebaseapp.com/" className=" btn btn-success">View app</Card.Link>
                             <Card.Link href="https://github.com/MahmoudNafea/TheBurger-web-app" className="btn btn-success">View on github</Card.Link>
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-4">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={weather} />
+                <div className="col-md-4 mb-3">
+                    <Card style={{ width: '18rem', height: '23rem' }}>
+                        <Card.Img variant="top" src={weather} style={{ height: '12rem' }} />
                         <Card.Body>
                             <Card.Title>The weather</Card.Title>
                             <Card.Text>
@@ -38,13 +38,13 @@ const Projects = () => {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-4">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={indecision} />
+                <div className="col-md-4 mb-3">
+                    <Card style={{ width: '18rem', height: '23rem' }}>
+                        <Card.Img variant="top" src={indecision} style={{ height: '12rem' }} />
                         <Card.Body>
                             <Card.Title>To do app</Card.Title>
                             <Card.Text>
-                                Reactjs, HTML, Sass and Firebase.
+                                Reactjs, HTML, Sass, Responsive and Firebase.
                             </Card.Text>
                             <Card.Link href="https://indecision-2bd03.firebaseapp.com/" className=" btn btn-success">View app</Card.Link>
                             <Card.Link href="https://github.com/MahmoudNafea/Indecision-app" className="btn btn-success">View on github</Card.Link>
@@ -53,11 +53,11 @@ const Projects = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-4">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={googleAnalysis} />
+                <div className="col-md-4 mb-3">
+                    <Card style={{ width: '18rem', height: '23rem' }}>
+                        <Card.Img variant="top" src={googleAnalysis} style={{ height: '12rem' }} />
                         <Card.Body>
-                            <Card.Title>Google play analysis and visualization</Card.Title>
+                            <Card.Title>Analysis and Visualization</Card.Title>
                             <Card.Text>
                                 Python, Numpy, Pandas, Plotly, Seaborn,..etc.
                             </Card.Text>
@@ -65,26 +65,26 @@ const Projects = () => {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-4">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={reactHooks} />
+                <div className="col-md-4 mb-3">
+                    <Card style={{ width: '18rem', height: '23rem' }}>
+                        <Card.Img variant="top" src={reactHooks} style={{ height: '12rem' }} />
                         <Card.Body>
                             <Card.Title>Hooks to do list</Card.Title>
                             <Card.Text>
-                                React hooks, HTML, CSS and Firbase
+                                Complete React hooks, HTML, CSS and Firbase.
                             </Card.Text>
                             <Card.Link href="https://reacthooks-ddcc5.firebaseapp.com/" className=" btn btn-success">View app</Card.Link>
                             <Card.Link href="https://github.com/MahmoudNafea/todo-reactHooks" className="btn btn-success">View on github</Card.Link>
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-4">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={burger} />
+                <div className="col-md-4 mb-3">
+                    <Card style={{ width: '18rem', height: '23rem' }}>
+                        <Card.Img variant="top" src={burger} style={{ height: '12rem' }} />
                         <Card.Body>
                             <Card.Title>Fitness tracker</Card.Title>
                             <Card.Text>
-                                Mernstack. Nodejs, Express, Reactjs, MongoGB and Heroku
+                                Mernstack. Nodejs, Express, Reactjs, MongoGB and Heroku.
                             </Card.Text>
                             <Card.Link href="https://theburger-web-app.firebaseapp.com/" className=" btn btn-success">View app</Card.Link>
                             <Card.Link href="https://github.com/MahmoudNafea/Fitness-tracker-mernStack" className="btn btn-success">View on github</Card.Link>
@@ -93,8 +93,6 @@ const Projects = () => {
                 </div>
             </div>
         </div>
-
-
     )
 }
 

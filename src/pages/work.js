@@ -9,9 +9,9 @@ const WorkPage = () => {
         <div className="container text-center">
             <h2>My previous employers</h2>
             <div className="row">
-                <div className="col-md-4">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={accenture} />
+                <div className="col-md-4 col-sm-12 mb-3 ">
+                    <Card style={{ width: '18rem', height: '20rem' }}>
+                        <Card.Img variant="top" style={{ height: '12rem' }} src={accenture} />
                         <Card.Body>
                             <Card.Title>Data analyst</Card.Title>
                             <Card.Text>
@@ -21,9 +21,9 @@ const WorkPage = () => {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-4">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={spectrum} />
+                <div className="col-md-4 col-sm-12 mb-3">
+                    <Card style={{ width: '18rem', height: '20rem' }}>
+                        <Card.Img variant="top" src={spectrum} style={{ height: '12rem' }} />
                         <Card.Body>
                             <Card.Title>Quality assurance</Card.Title>
                             <Card.Text>
@@ -33,9 +33,9 @@ const WorkPage = () => {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-4">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={topelectric} />
+                <div className="col-md-4 col-sm-12 mb-3">
+                    <Card style={{ width: '18rem', height: '20rem' }}>
+                        <Card.Img variant="top" src={topelectric} style={{ height: '12rem' }} />
                         <Card.Body>
                             <Card.Title>Quality assurance</Card.Title>
                             <Card.Text>
