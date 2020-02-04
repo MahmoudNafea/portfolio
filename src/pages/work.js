@@ -1,8 +1,9 @@
 import React from 'react';
+import Skills from './../components/skills';
 import { Card } from 'react-bootstrap';
-import accenture from './../img/accenture.jpg'
-import spectrum from './../img/spectrum.jpg'
-import topelectric from './../img/topelectric.jpg'
+import accenture from './../img/accenture.jpg';
+import spectrum from './../img/spectrum.jpg';
+import topelectric from './../img/topelectric.jpg';
 
 const WorkPage = () => {
     return (
@@ -48,6 +49,7 @@ const WorkPage = () => {
                     </Card>
                 </div>
             </div>
+            <Skills />
         </div>
     )
 }
