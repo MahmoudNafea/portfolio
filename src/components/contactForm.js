@@ -3,7 +3,7 @@ import { Form, Button } from 'react-bootstrap';
 const ContactForm = () => {
     return (
         <div >
-            <Form action="https://formspree.io/mknrjyde" method="Post">
+            <Form action="https://smartforms.dev/submit/5e3b6053d8ad7f23295deb26" method="Post">
                 <Form.Group controlId="formBasicEmail">
                     <Form.Control type="email" placeholder="Enter email" />
                 </Form.Group>
