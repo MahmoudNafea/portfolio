@@ -5,16 +5,16 @@ const ContactForm = () => {
         <div >
             <Form action="https://smartforms.dev/submit/5e3b6053d8ad7f23295deb26" method="Post">
                 <Form.Group controlId="formBasicEmail">
-                    <Form.Control type="email" placeholder="Enter email" />
+                    <Form.Control type="email" placeholder="Email" name="email" />
                 </Form.Group>
-                <Form.Group controlId="formBasicEmail">
-                    <Form.Control type="text" placeholder="Name" />
+                <Form.Group >
+                    <Form.Control type="text" placeholder="Name" name="name" />
                 </Form.Group>
-                <Form.Group controlId="formBasicEmail">
-                    <Form.Control type="text" placeholder="Subject" />
+                <Form.Group >
+                    <Form.Control type="text" placeholder="Subject" name="subject" />
                 </Form.Group>
-                <Form.Group controlId="formBasicEmail">
-                    <Form.Control as="textarea" rows="3" placeholder="Message" />
+                <Form.Group >
+                    <Form.Control as="textarea" rows="3" placeholder="Message" name="message" />
                 </Form.Group>
                 <Button variant="primary" type="submit">
                     Submit
