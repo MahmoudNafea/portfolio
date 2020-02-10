@@ -6,7 +6,6 @@ import indecision from './../img/indecision.PNG';
 import googleAnalysis from './../img/googleAnalysis.PNG';
 import reactHooks from './../img/reactHooks.PNG';
 
-
 const Projects = () => {
     return (
         <div>
@@ -106,4 +105,3 @@ const Projects = () => {
 }
 
 export default Projects
-

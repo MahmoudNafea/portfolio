@@ -1,12 +1,10 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-// import Background from './background';
 
 const NavbarPage = () => {
 
     return (
-
-        <div className="mynav">
+        <div>
             <Container >
                 <Navbar expand="sm"  >
                     <Navbar.Brand href="/">Portfolio</Navbar.Brand>
@@ -25,5 +23,4 @@ const NavbarPage = () => {
         </div>
     )
 }
-
 export default NavbarPage

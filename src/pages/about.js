@@ -2,7 +2,6 @@ import React from 'react';
 import { Image, Alert } from 'react-bootstrap/';
 import myphoto from './../img/myphoto.jpg';
 
-
 const AboutPage = () => {
     return (
         <div>
@@ -27,17 +26,6 @@ const AboutPage = () => {
                                      I'm interested in opportunities in both of them.
   </p>
                             </Alert>
-                            {/* <p >
-                            Let's start with the basic information about me.
-                             I'm Egyptian working now in Malaysia. I've a bachelor's degree in science and I'm 27 years old.
-                       </p>
-                        <p >
-                            My experience is more than 3 years in technology and business industry.
-                            I'm experienced junior data analyst using powerful tools starting with excel to Python.
-                            Also I'm fresh software developer for frontend and backend development.
-                             I'm interested in opportunities in both of them.
-                        </p> */}
-
                         </div>
                         <div className="col-sm-5">
                             <div className="img-wrap">

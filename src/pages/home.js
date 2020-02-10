@@ -1,15 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-// import Background from '../components/background';
-// import Background from "./../components/background";
-// import WOW from "wowjs";
-
-
 
 class HomePage extends Component {
-    // componentDidMount() {
-    //     new WOW.WOW().init();
-    // }
 
     render() {
         return (
