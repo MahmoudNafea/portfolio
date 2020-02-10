@@ -11,7 +11,7 @@ import Projects from './pages/projects';
 function App() {
   return (
     <Router>
-      <div >
+      <div  >
         <NavbarPage />
         <Route path='/' exact component={HomePage} />
         <Route path='/about' component={AboutPage} />

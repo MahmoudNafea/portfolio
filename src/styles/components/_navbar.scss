@@ -1,18 +1,13 @@
-// .toolbar{
-//     background-color: #610746;
-//     color:white;
+.navbar-brand, .navbar-nav .nav-link {
+    color: #bbb !important;
+    &:hover{
+        color: white !important;
+    }
+}
 
-// }
-// .port-button{
-//     display: none !important;
-// }
-// @media(max-width:360px){
-//     .port-button{
-//         color: white !important;
-//         display: inherit !important;
-//     }
-//     .nav-button{
-//         display: none !important;
-
-//     }
-// }
+.custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(245, 246, 247)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+ .custom-toggler.navbar-toggler {
+    border-color: #f7f8fa;
+}
