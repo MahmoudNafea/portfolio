@@ -11,7 +11,7 @@ const ContactPage = () => {
             <div id="stars" />
             <div id="stars2" />
             <div id="stars3" />
-            <Container className="text-center" style={{ background: "white", color: "black", width: "900px", height: "500px" }}>
+            <Container className="text-center" style={{ background: "white", color: "black" }}>
                 <div style={{ margin: "2rem 0" }}>
                     <h2 style={{ paddingTop: "10px" }}>Let's Talk</h2>
                 </div>
