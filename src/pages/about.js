@@ -14,7 +14,7 @@ const AboutPage = () => {
                         <div className="col-sm-7" >
                             <h1 className="text-center" style={{ marginTop: '2rem' }} >My Story</h1>
                             <Alert className="about" >
-                                <Alert.Heading>Nice to see you</Alert.Heading>
+                                <Alert.Heading style={{ color: "#f0a824" }}>Nice to see you</Alert.Heading>
                                 <p>
                                     Let's start with the basic information about me.
                                      I'm Egyptian working now in Malaysia. I've a bachelor's degree in science and I'm 27 years old.
