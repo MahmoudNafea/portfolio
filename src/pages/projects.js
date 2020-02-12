@@ -17,7 +17,7 @@ const Projects = () => {
                     <h2>Projects</h2>
                     <p>Check out some of my projects</p>
                 </div>
-                <div className="row">
+                <div className="row" style={{ margin: 0 }}>
                     <div className="col-md-4  mb-3">
                         <Card style={{ width: '18rem', height: '23rem' }}>
                             <Card.Img variant="top" src={burger} style={{ height: '12rem' }} />
@@ -58,7 +58,7 @@ const Projects = () => {
                         </Card>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row" style={{ margin: 0 }}>
                     <div className="col-md-4 mb-3">
                         <Card style={{ width: '18rem', height: '23rem' }}>
                             <Card.Img variant="top" src={googleAnalysis} style={{ height: '12rem' }} />

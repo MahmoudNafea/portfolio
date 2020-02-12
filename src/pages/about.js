@@ -10,7 +10,7 @@ const AboutPage = () => {
             <div id="stars3" />
             <div className="container">
                 <div >
-                    <div className="row">
+                    <div className="row" style={{ margin: " 0 0 20px 0 " }}>
                         <div className="col-sm-7" >
                             <h1 className="text-center" style={{ marginTop: '2rem' }} >My Story</h1>
                             <Alert className="about" >

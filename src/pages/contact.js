@@ -15,7 +15,7 @@ const ContactPage = () => {
                 <div style={{ margin: "2rem 0" }}>
                     <h2 style={{ paddingTop: "10px" }}>Let's Talk</h2>
                 </div>
-                <div className="row">
+                <div className="row" style={{ marginBottom: " 20px " }}>
                     <div className="col-md-6">
                         <div>
                             <h4>Send A Message</h4>
