@@ -14,7 +14,7 @@ const Projects = () => {
             <div id="stars3" />
             <div className="container text-center" >
                 <div style={{ margin: '2rem 0' }}>
-                    <h2>Projects</h2>
+                    <h2 className=" myTitle">Projects</h2>
                     <p>Check out some of my projects</p>
                 </div>
                 <div className="row" style={{ margin: 0 }}>

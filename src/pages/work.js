@@ -13,7 +13,7 @@ const WorkPage = () => {
             <div id="stars3" />
             <div className="container text-center">
                 <div style={{ margin: '2rem 0' }}>
-                    <h2 >My Employers</h2>
+                    <h2 className=" myTitle">My Employers</h2>
                 </div>
                 <div className="row" style={{ margin: 0 }}>
                     <div className="col-md-4 col-sm-12 mb-3 ">

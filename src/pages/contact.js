@@ -13,7 +13,7 @@ const ContactPage = () => {
             <div id="stars3" />
             <Container className="text-center" style={{ background: "white", color: "black" }}>
                 <div style={{ margin: "2rem 0" }}>
-                    <h2 style={{ paddingTop: "10px" }}>Let's Talk</h2>
+                    <h2 className=" myTitle" style={{ paddingTop: "10px" }}>Let's Talk</h2>
                 </div>
                 <div className="row" style={{ marginBottom: " 20px " }}>
                     <div className="col-md-6">

@@ -7,7 +7,7 @@ const Skills = () => {
     return (
         <div className="container text-center">
             <div style={{ margin: "2rem 0" }}>
-                <h2 className="title">Skills</h2>
+                <h2 className="title  myTitle ">Skills</h2>
             </div>
             <div className="row">
                 <div className="col-md-6">

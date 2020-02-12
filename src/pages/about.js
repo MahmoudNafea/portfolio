@@ -12,7 +12,7 @@ const AboutPage = () => {
                 <div >
                     <div className="row" style={{ margin: " 0 0 20px 0 " }}>
                         <div className="col-sm-7" >
-                            <h1 className="text-center" style={{ marginTop: '2rem' }} >My Story</h1>
+                            <h1 className="text-center myTitle" style={{ marginTop: '2rem' }} >My Story</h1>
                             <Alert className="about" >
                                 <Alert.Heading style={{ color: "#f0a824" }}>Nice to see you</Alert.Heading>
                                 <p>
