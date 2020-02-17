@@ -5,6 +5,7 @@ import weather from './../img/weather.PNG';
 import indecision from './../img/indecision.PNG';
 import googleAnalysis from './../img/googleAnalysis.PNG';
 import reactHooks from './../img/reactHooks.PNG';
+import fitness from './../img/fitness.PNG';
 
 const Projects = () => {
     return (
@@ -86,7 +87,7 @@ const Projects = () => {
                     </div>
                     <div className="col-md-4 mb-3">
                         <Card style={{ width: '18rem', height: '23rem' }}>
-                            <Card.Img variant="top" src={burger} style={{ height: '12rem' }} />
+                            <Card.Img variant="top" src={fitness} style={{ height: '12rem' }} />
                             <Card.Body style={{ color: "black" }}>
                                 <Card.Title>Fitness tracker</Card.Title>
                                 <Card.Text>
