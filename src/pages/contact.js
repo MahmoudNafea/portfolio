@@ -2,7 +2,8 @@ import React from 'react';
 import ContactForm from './../components/contactForm';
 import linkedin from './../img/linkedin.png';
 import github from './../img/github.png';
-import stack from './../img/stack.jpg'
+import stack from './../img/stack.jpg';
+import whats from './../img/whats.png';
 import { Container, Image } from 'react-bootstrap';
 
 const ContactPage = () => {
@@ -36,8 +37,7 @@ const ContactPage = () => {
                             </a>
                         </div>
                         <div style={{ marginTop: "2rem " }}>
-                            <p>Tel: +60139381220</p>
-                            <p>Gmail:mahmoudnafea19@gmail.com</p>
+                            <p><Image src={whats} fluid className="contact-img" /> +60139381220</p>
                         </div>
                     </div>
 
