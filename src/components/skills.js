@@ -62,7 +62,7 @@ const Skills = () => {
                         <ProgressBar now={80} label={`${80}%`} />
                     </div>
                     <div style={{ margin: "1rem " }}>
-                        <label>Cloud (Google,AWS,Heroku), Debugging</label>
+                        <label>Cloud (Google,Heroku), Debugging</label>
                         <ProgressBar now={80} label={`${80}%`} animated />
                     </div>
                 </div>
