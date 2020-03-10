@@ -19,7 +19,7 @@ const Projects = () => {
                     <p>Check out some of my projects</p>
                 </div>
                 <div className="row" style={{ margin: 0 }}>
-                    <div className="col-md-4  mb-3">
+                    <div className="col-lg-4 col-md-6 mb-3">
                         <Card style={{ width: '18rem', height: '23rem' }}>
                             <Card.Img variant="top" src={burger} style={{ height: '12rem' }} />
                             <Card.Body style={{ color: "black" }}>
@@ -32,7 +32,7 @@ const Projects = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 mb-3">
+                    <div className="col-lg-4 col-md-6 mb-3">
                         <Card style={{ width: '18rem', height: '23rem' }}>
                             <Card.Img variant="top" src={weather} style={{ height: '12rem' }} />
                             <Card.Body style={{ color: "black" }}>
@@ -45,7 +45,7 @@ const Projects = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 mb-3">
+                    <div className="col-lg-4 col-md-6 mb-3">
                         <Card style={{ width: '18rem', height: '23rem' }}>
                             <Card.Img variant="top" src={indecision} style={{ height: '12rem' }} />
                             <Card.Body style={{ color: "black" }}>
@@ -60,7 +60,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="row" style={{ margin: 0 }}>
-                    <div className="col-md-4 mb-3">
+                    <div className="col-lg-4 col-md-6 mb-3">
                         <Card style={{ width: '18rem', height: '23rem' }}>
                             <Card.Img variant="top" src={googleAnalysis} style={{ height: '12rem' }} />
                             <Card.Body style={{ color: "black" }}>
@@ -72,7 +72,7 @@ const Projects = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 mb-3">
+                    <div className="col-lg-4 col-md-6 mb-3">
                         <Card style={{ width: '18rem', height: '23rem' }}>
                             <Card.Img variant="top" src={reactHooks} style={{ height: '12rem' }} />
                             <Card.Body style={{ color: "black" }}>
@@ -85,7 +85,7 @@ const Projects = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 mb-3">
+                    <div className="col-lg-4 col-md-6 mb-3">
                         <Card style={{ width: '18rem', height: '23rem' }}>
                             <Card.Img variant="top" src={fitness} style={{ height: '12rem' }} />
                             <Card.Body style={{ color: "black" }}>

@@ -16,7 +16,7 @@ const WorkPage = () => {
                     <h2 className=" myTitle">My Employers</h2>
                 </div>
                 <div className="row" style={{ margin: 0 }}>
-                    <div className="col-md-4 col-sm-12 mb-3 ">
+                    <div className="col-lg-4 col-md-6 col-sm-12 mb-3 ">
                         <Card style={{ width: '18rem', height: '21rem' }}>
                             <Card.Img variant="top" style={{ height: '12rem' }} src={accenture} />
                             <Card.Body style={{ color: "black" }}>
@@ -28,7 +28,7 @@ const WorkPage = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 col-sm-12 mb-3">
+                    <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                         <Card style={{ width: '18rem', height: '21rem' }}>
                             <Card.Img variant="top" src={spectrum} style={{ height: '12rem' }} />
                             <Card.Body style={{ color: "black" }}>
@@ -40,7 +40,7 @@ const WorkPage = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 col-sm-12 mb-3">
+                    <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                         <Card style={{ width: '18rem', height: '21rem' }}>
                             <Card.Img variant="top" src={topelectric} style={{ height: '12rem' }} />
                             <Card.Body style={{ color: "black" }}>
