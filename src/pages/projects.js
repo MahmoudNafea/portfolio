@@ -93,7 +93,7 @@ const Projects = () => {
                                 <Card.Text>
                                     Mernstack. Nodejs, Express, Reactjs, MongoGB and Heroku.
                             </Card.Text>
-                                <Card.Link href="https://theburger-web-app.firebaseapp.com/" className=" btn btn-success">View app</Card.Link>
+                                <Card.Link href="https://fitness-mearn-app.herokuapp.com/" className=" btn btn-success">View app</Card.Link>
                                 <Card.Link href="https://github.com/MahmoudNafea/Fitness-tracker-mernStack" className="btn btn-success">View on github</Card.Link>
                             </Card.Body>
                         </Card>
