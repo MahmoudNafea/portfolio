@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ae52f586.chunk.css",
+    "main.js": "/static/js/main.f5c72714.chunk.js",
+    "main.js.map": "/static/js/main.f5c72714.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cb82405f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cb82405f.js.map",
+    "static/css/2.764ccc25.chunk.css": "/static/css/2.764ccc25.chunk.css",
+    "static/js/2.7c6db7e2.chunk.js": "/static/js/2.7c6db7e2.chunk.js",
+    "static/js/2.7c6db7e2.chunk.js.map": "/static/js/2.7c6db7e2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fb6b67fa38fbd256f459a00534779e91.js": "/precache-manifest.fb6b67fa38fbd256f459a00534779e91.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.ae52f586.chunk.css.map": "/static/css/main.ae52f586.chunk.css.map",
+    "static/js/2.7c6db7e2.chunk.js.LICENSE": "/static/js/2.7c6db7e2.chunk.js.LICENSE",
+    "static/media/accenture.jpg": "/static/media/accenture.1f77eaaa.jpg",
+    "static/media/styles.scss": "/static/media/background.9c5c3df0.jpg",
+    "static/media/burger.PNG": "/static/media/burger.860436f0.PNG",
+    "static/media/fitness.PNG": "/static/media/fitness.d575ba06.PNG",
+    "static/media/github.png": "/static/media/github.957c4dd9.png",
+    "static/media/googleAnalysis.PNG": "/static/media/googleAnalysis.93e1a5c4.PNG",
+    "static/media/indecision.PNG": "/static/media/indecision.581be8f6.PNG",
+    "static/media/javascript.png": "/static/media/javascript.b4cc9b6d.png",
+    "static/media/linkedin.png": "/static/media/linkedin.bf1a2919.png",
+    "static/media/myphoto.jpg": "/static/media/myphoto.b11446ea.jpg",
+    "static/media/python.png": "/static/media/python.3964a919.png",
+    "static/media/reactHooks.PNG": "/static/media/reactHooks.8456a809.PNG",
+    "static/media/spectrum.jpg": "/static/media/spectrum.bb3d8606.jpg",
+    "static/media/stack.jpg": "/static/media/stack.349e75fd.jpg",
+    "static/media/topelectric.jpg": "/static/media/topelectric.5ba504f6.jpg",
+    "static/media/weather.PNG": "/static/media/weather.11b54263.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb82405f.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.7c6db7e2.chunk.js",
+    "static/css/main.ae52f586.chunk.css",
+    "static/js/main.f5c72714.chunk.js"
+  ]
+}
