@@ -17,13 +17,14 @@ const AboutPage = () => {
                                 <Alert.Heading style={{ color: "#f0a824" }}>Nice to see you</Alert.Heading>
                                 <p>
                                     Let's start with the basic information about me.
-                                     I'm Egyptian working now in Malaysia. I've a bachelor's degree in science and I'm 27 years old.
+                                    I'm Egyptian working now in Malaysia. I've a bachelor's degree in science and I'm 27 years old.
   </p>
                                 <p className="mb-0">
-                                    My experience is more than 3 years in technology and business industry.
-                                    I'm experienced junior data analyst using powerful tools starting with excel to Python.
-                                    Also I'm fresh software developer for frontend and backend development.
-                                     I'm interested in opportunities in both of them.
+                                    My experience is more than 3 years in technology and business industry.<br />
+                                    I'm junior software developer with big passion abd experience in data analysis.
+                                    Hands on front end and back end technology using Reactjs, Nodejs and Python.
+                                    I’ve also strong knowledge in data analysis and visualization tools.
+                                    I'm interested in opportunities in both of them.
   </p>
                             </Alert>
                         </div>
