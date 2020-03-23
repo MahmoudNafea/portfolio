@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 import NavbarPage from "./components/navbar";
 import HomePage from "./pages/home";
 import AboutPage from "./pages/about";
@@ -12,8 +12,8 @@ import Dashboard from "./pages/dashboard";
 function App() {
   return (
     <Router>
-      <div>
-        <NavbarPage />
+      <NavbarPage />
+      <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/about" component={AboutPage} />
         <Route path="/work" component={WorkPage} />
@@ -21,7 +21,8 @@ function App() {
         <Route path="/contact" component={ContactPage} />
         <Route path="/login" component={LoginPage} />
         <Route path="/dashboard" component={Dashboard} />
-      </div>
+        <Redirect to="/" />
+      </Switch>
     </Router>
   );
 }
