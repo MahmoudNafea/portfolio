@@ -11,20 +11,20 @@ import Dashboard from "./pages/dashboard";
 import AuthContext from './components/context/authContext';
 
 function App() {
-  const [isLogIn, setIsLogIn] = useState(false)
+  const [isLogin, setIsLogin] = useState(false)
 
   const login = useCallback(() => {
-    setIsLogIn(true)
+    setIsLogin(true)
   }, []);
 
   const logout = useCallback(() => {
-    setIsLogIn(false)
+    setIsLogin(false)
   }, []);
 
 
   return (
     <AuthContext.Provider
-      value={{ isLogIn: isLogIn, login: login, logout: logout }}>
+      value={{ isLogin: isLogin, login: login, logout: logout }}>
       <Router>
         <NavbarPage />
         <Switch>
