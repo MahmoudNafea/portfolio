@@ -1,60 +1,44 @@
-import React, { Component } from 'react';
+import React, { useState, useContext } from 'react';
+import AuthContext from './../components/context/authContext';
 import { Form, Button, Card } from 'react-bootstrap';
 
-class LoginPage extends Component {
+const LoginPage = () => {
 
-    constructor(props) {
-        super(props)
-        this.onEmailChange = this.onEmailChange.bind(this)
-        this.onPasswordChange = this.onPasswordChange.bind(this)
-        this.onSubmit = this.onSubmit.bind(this)
+    const auth = useContext(AuthContext)
 
-    }
-    state = {
-        email: '',
-        password: ''
-    }
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+    const [loggedIn, setLoggedIn] = useState(true)
 
-    onEmailChange(e) {
-        this.setState({ email: e.target.value })
-    }
-    onPasswordChange(e) {
-        this.setState({ password: e.target.value })
-    }
-    onSubmit(e) {
+    const onSubmit = (e) => {
         e.preventDefault()
-        // const data = {
-        //     email: this.state.email,
-        //     password: this.state.password
-        // }
         console.log('Sorry, still underdevelopment')
-        this.setState({ email: '', password: '' })
+        auth.login()
     }
-    render() {
-        return (
-            <Card bg="Light" text="dark"
-                className="container text-center col-md-6" >
-                <h1>Please Login to see your dashboard</h1>
-                <div>
-                    <Form onSubmit={this.onSubmit}>
-                        <Form.Group controlId="formBasicEmail">
-                            <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" value={this.state.email}
-                                required onChange={this.onEmailChange} />
-                        </Form.Group>
-                        <Form.Group controlId="formBasicPassword">
-                            <Form.Label>Password</Form.Label>
-                            <Form.Control type="password" placeholder="Password" value={this.state.password}
-                                required onChange={this.onPasswordChange} />
-                        </Form.Group>
-                        <Button variant="primary" type="submit">
-                            Submit
+    return (
+        <Card bg="Light" text="dark"
+            className="container text-center col-md-6" >
+            <h1>Please Login to see your dashboard</h1>
+            <div>
+                <Form onSubmit={onSubmit}>
+                    <Form.Group controlId="formBasicEmail">
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control type="email" placeholder="Enter email" value={email}
+                            required onChange={(e) => { setEmail(e.target.value) }} />
+                    </Form.Group>
+                    <Form.Group controlId="formBasicPassword">
+                        <Form.Label>Password</Form.Label>
+                        <Form.Control type="password" placeholder="Password" value={password}
+                            required onChange={(e) => { setPassword(e.target.value) }} />
+                    </Form.Group>
+                    <Button variant="primary" type="submit">
+                        Submit
                         </Button>
-                    </Form>
-                </div>
-            </Card >
-        )
-    }
+                </Form>
+            </div>
+        </Card >
+    )
+
 }
 
 export default LoginPage
