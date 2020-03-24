@@ -9,12 +9,16 @@ const LoginPage = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [loggedIn, setLoggedIn] = useState(true)
+    const [error, setError] = useState('')
 
     const onSubmit = (e) => {
         e.preventDefault()
-        console.log('Sorry, still underdevelopment')
-        auth.login()
+        if (email === "mahmoudnafea19@gmail" && password === "12345") {
+            auth.login()
+        }
+        setError("your're not allowed. Please contact the creator")
     }
+
     return (
         <Card bg="Light" text="dark"
             className="container text-center col-md-6" >
@@ -35,6 +39,7 @@ const LoginPage = () => {
                         Submit
                         </Button>
                 </Form>
+                <h2>{error}</h2>
             </div>
         </Card >
     )
