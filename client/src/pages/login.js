@@ -13,10 +13,12 @@ const LoginPage = () => {
 
     const onSubmit = (e) => {
         e.preventDefault()
-        if (email === "mahmoudnafea19@gmail" && password === "12345") {
-            auth.login()
-        }
-        setError("your're not allowed. Please contact the creator")
+        // if (email === "mahmoudnafea19@gmail" && password === "12345") {
+        //     auth.login()
+        // }
+        // setError("your're not allowed. Please contact the creator")
+        setError("your're not authenticated. Please contact the creator")
+
     }
 
     return (
