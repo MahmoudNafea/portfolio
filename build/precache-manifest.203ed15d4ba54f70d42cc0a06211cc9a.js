@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6189d05429359c8a6e9b8512fd5f3c94",
+    "revision": "3547aa97a05bdbb17b84339a06b40b91",
     "url": "/index.html"
   },
   {
-    "revision": "08fc81b7dd7f9347d4d1",
+    "revision": "9d1c846b528d82a3f95f",
     "url": "/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "cdb6c67ede6873a2af07",
-    "url": "/static/css/main.ae52f586.chunk.css"
+    "revision": "f40b42b5fb6731ea57c9",
+    "url": "/static/css/main.4e93a8bd.chunk.css"
   },
   {
-    "revision": "08fc81b7dd7f9347d4d1",
-    "url": "/static/js/2.1a2f8e6d.chunk.js"
+    "revision": "9d1c846b528d82a3f95f",
+    "url": "/static/js/2.7ef7787f.chunk.js"
   },
   {
-    "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/static/js/2.1a2f8e6d.chunk.js.LICENSE"
+    "revision": "56729d980da09961afe8d497a21eec12",
+    "url": "/static/js/2.7ef7787f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cdb6c67ede6873a2af07",
-    "url": "/static/js/main.32235b88.chunk.js"
+    "revision": "f40b42b5fb6731ea57c9",
+    "url": "/static/js/main.2b9a640d.chunk.js"
   },
   {
-    "revision": "c9f1875f7e246a67df7e",
-    "url": "/static/js/runtime-main.cb82405f.js"
+    "revision": "23f7e4d2c8397ce55bf6",
+    "url": "/static/js/runtime-main.5fe610d3.js"
+  },
+  {
+    "revision": "52b265c3145cc7b6666447451e728303",
+    "url": "/static/media/Zulu.52b265c3.PNG"
   },
   {
     "revision": "1f77eaaadb22c1d83c2da0b8698fa69c",
@@ -38,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "860436f09ddd5c35ebb6e1738b61fd2d",
     "url": "/static/media/burger.860436f0.PNG"
-  },
-  {
-    "revision": "d575ba0664fcfc1360dbc98e50401e46",
-    "url": "/static/media/fitness.d575ba06.PNG"
   },
   {
     "revision": "957c4dd9aa815cc1de2040cc1259589f",
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5ba504f69dc3942494b6a2978589d001",
     "url": "/static/media/topelectric.5ba504f6.jpg"
+  },
+  {
+    "revision": "4cb4023a4067a1bfb86b737c47fa86e2",
+    "url": "/static/media/upwork.4cb4023a.png"
   },
   {
     "revision": "11b54263ff407f6453bd1455fa97ffc8",

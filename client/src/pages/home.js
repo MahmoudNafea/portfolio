@@ -10,7 +10,7 @@ class HomePage extends Component {
                 <div id="stars3" />
                 <div className="container text-center homePage " >
                     <h2 className="title">Hello, I'm Mahmoud Nafea</h2>
-                    <h4 className="intro">Software developer && Data analyst </h4>
+                    <h4 className="intro">Fullstack Software developer </h4>
                     <p className="intro">Thanks for visiting my portfolio. I hope you enjoy your tour through it </p>
                     <div style={{ marginTop: "100px" }}>
                         <Link to="/about" className="btn btn-primary">Get started</Link>

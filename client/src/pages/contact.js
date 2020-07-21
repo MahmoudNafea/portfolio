@@ -3,7 +3,7 @@ import ContactForm from './../components/contactForm';
 import linkedin from './../img/linkedin.png';
 import github from './../img/github.png';
 import stack from './../img/stack.jpg';
-import whats from './../img/whats.png';
+import upwork from './../img/upwork.png';
 import { Container, Image } from 'react-bootstrap';
 
 const ContactPage = () => {
@@ -17,7 +17,7 @@ const ContactPage = () => {
                     <h2 className=" myTitle" style={{ paddingTop: "10px" }}>Let's Talk</h2>
                 </div>
                 <div className="row" style={{ marginBottom: " 20px " }}>
-                    <div className="col-md-6">
+                    <div className="col-md-6" style={{ marginBottom: " 20px " }}>
                         <div>
                             <h4>Send A Message</h4>
                         </div>
@@ -35,9 +35,9 @@ const ContactPage = () => {
                             <a href="https://stackoverflow.com/users/12745027/mahmoud-nafea" style={{ margin: "1rem " }}>
                                 <Image src={stack} fluid className="contact-img" />
                             </a>
-                        </div>
-                        <div style={{ marginTop: "2rem " }}>
-                            <p><Image src={whats} fluid className="contact-img" /> +60139381220</p>
+                            <a href="https://www.upwork.com/freelancers/~0183f46b89593818a5" style={{ margin: "1rem " }}>
+                                <Image src={upwork} fluid className="contact-img" />
+                            </a>
                         </div>
                     </div>
 

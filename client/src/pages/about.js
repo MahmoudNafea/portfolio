@@ -21,11 +21,10 @@ const AboutPage = () => {
   </p>
                                 <p className="mb-0">
                                     My experience is more than 3 years in technology and business industry.<br />
-                                    I'm junior software developer with big passion abd experience in data analysis.
-                                    Hands on front end and back end technology using Reactjs, Nodejs and Python.
+                                    I'm junior software developer with a journey of self-learning in coding.<br />
+                                    Hands on front end and back end technology using Reactjs, Nodejs and Python.<br />
                                     I’ve also strong knowledge in data analysis and visualization tools.
-                                    I'm interested in opportunities in both of them.
-  </p>
+                                      </p>
                             </Alert>
                         </div>
                         <div className="col-sm-5">

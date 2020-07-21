@@ -5,7 +5,7 @@ import weather from './../img/weather.PNG';
 import indecision from './../img/indecision.PNG';
 import googleAnalysis from './../img/googleAnalysis.PNG';
 import reactHooks from './../img/reactHooks.PNG';
-import fitness from './../img/fitness.PNG';
+import Zulu from './../img/Zulu.PNG';
 
 const Projects = () => {
     return (
@@ -28,20 +28,18 @@ const Projects = () => {
                                     Reactjs, Redux, HTML, CSS,Responsive and Firebase.
                             </Card.Text>
                                 <Card.Link href="https://theburger-web-app.firebaseapp.com/" className=" btn btn-success">View app</Card.Link>
-                                <Card.Link href="https://github.com/MahmoudNafea/TheBurger-web-app" className="btn btn-success">View on github</Card.Link>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className="col-lg-4 col-md-6 mb-3">
                         <Card style={{ width: '18rem', height: '23rem' }}>
-                            <Card.Img variant="top" src={weather} style={{ height: '12rem' }} />
+                            <Card.Img variant="top" src={Zulu} style={{ height: '12rem' }} />
                             <Card.Body style={{ color: "black" }}>
-                                <Card.Title>The weather</Card.Title>
+                                <Card.Title>E-Commerce</Card.Title>
                                 <Card.Text>
-                                    Nodejs, express, Javascript, HTML, CSS and Heroku.
+                                    Mernstack. Nodejs, Express, Reactjs, MongoGB and Heroku.
                             </Card.Text>
-                                <Card.Link href="https://nefo-theweather-app.herokuapp.com/" className=" btn btn-success">View app</Card.Link>
-                                <Card.Link href="https://github.com/MahmoudNafea/TheWeatherApp" className="btn btn-success">View on github</Card.Link>
+                                <Card.Link href="https://zulustore.herokuapp.com/" className=" btn btn-success">View app</Card.Link>
                             </Card.Body>
                         </Card>
                     </div>
@@ -54,7 +52,6 @@ const Projects = () => {
                                     Reactjs, HTML, Sass, Responsive and Firebase.
                             </Card.Text>
                                 <Card.Link href="https://indecision-2bd03.firebaseapp.com/" className=" btn btn-success">View app</Card.Link>
-                                <Card.Link href="https://github.com/MahmoudNafea/Indecision-app" className="btn btn-success">View on github</Card.Link>
                             </Card.Body>
                         </Card>
                     </div>
@@ -81,20 +78,18 @@ const Projects = () => {
                                     Complete React hooks, HTML, CSS and Firbase.
                             </Card.Text>
                                 <Card.Link href="https://reacthooks-ddcc5.firebaseapp.com/" className=" btn btn-success">View app</Card.Link>
-                                <Card.Link href="https://github.com/MahmoudNafea/todo-reactHooks" className="btn btn-success">View on github</Card.Link>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className="col-lg-4 col-md-6 mb-3">
                         <Card style={{ width: '18rem', height: '23rem' }}>
-                            <Card.Img variant="top" src={fitness} style={{ height: '12rem' }} />
+                            <Card.Img variant="top" src={weather} style={{ height: '12rem' }} />
                             <Card.Body style={{ color: "black" }}>
-                                <Card.Title>Fitness tracker</Card.Title>
+                                <Card.Title>The weather</Card.Title>
                                 <Card.Text>
-                                    Mernstack. Nodejs, Express, Reactjs, MongoGB and Heroku.
+                                    Nodejs, express, Javascript, HTML, CSS and Heroku.
                             </Card.Text>
-                                <Card.Link href="https://fitness-mearn-app.herokuapp.com/" className=" btn btn-success">View app</Card.Link>
-                                <Card.Link href="https://github.com/MahmoudNafea/Fitness-tracker-mernStack" className="btn btn-success">View on github</Card.Link>
+                                <Card.Link href="https://nefo-theweather-app.herokuapp.com/" className=" btn btn-success">View app</Card.Link>
                             </Card.Body>
                         </Card>
                     </div>
