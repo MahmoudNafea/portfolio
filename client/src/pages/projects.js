@@ -4,7 +4,7 @@ import burger from './../img/burger.PNG';
 import weather from './../img/weather.PNG';
 import indecision from './../img/indecision.PNG';
 import googleAnalysis from './../img/googleAnalysis.PNG';
-import reactHooks from './../img/reactHooks.PNG';
+import startUp from './../img/startUp.JPG';
 import Zulu from './../img/Zulu.PNG';
 
 const Projects = () => {
@@ -19,6 +19,18 @@ const Projects = () => {
                     <p>Check out some of my projects</p>
                 </div>
                 <div className="row" style={{ margin: 0 }}>
+                    <div className="col-lg-4 col-md-6 mb-3">
+                        <Card style={{ width: '18rem', height: '23rem' }}>
+                            <Card.Img variant="top" src={startUp} style={{ height: '12rem' }} />
+                            <Card.Body style={{ color: "black" }}>
+                                <Card.Title>Startup Agency</Card.Title>
+                                <Card.Text>
+                                    React hooks, Nextjs, HTML, SASS and AWS.
+                            </Card.Text>
+                                <Card.Link href="https://d30gfjuntwcssp.cloudfront.net/index.html" className=" btn btn-success">View app</Card.Link>
+                            </Card.Body>
+                        </Card>
+                    </div>
                     <div className="col-lg-4 col-md-6 mb-3">
                         <Card style={{ width: '18rem', height: '23rem' }}>
                             <Card.Img variant="top" src={burger} style={{ height: '12rem' }} />
@@ -43,18 +55,6 @@ const Projects = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-lg-4 col-md-6 mb-3">
-                        <Card style={{ width: '18rem', height: '23rem' }}>
-                            <Card.Img variant="top" src={indecision} style={{ height: '12rem' }} />
-                            <Card.Body style={{ color: "black" }}>
-                                <Card.Title>To do app</Card.Title>
-                                <Card.Text>
-                                    Reactjs, HTML, Sass, Responsive and Firebase.
-                            </Card.Text>
-                                <Card.Link href="https://indecision-2bd03.firebaseapp.com/" className=" btn btn-success">View app</Card.Link>
-                            </Card.Body>
-                        </Card>
-                    </div>
                 </div>
                 <div className="row" style={{ margin: 0 }}>
                     <div className="col-lg-4 col-md-6 mb-3">
@@ -71,13 +71,13 @@ const Projects = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 mb-3">
                         <Card style={{ width: '18rem', height: '23rem' }}>
-                            <Card.Img variant="top" src={reactHooks} style={{ height: '12rem' }} />
+                            <Card.Img variant="top" src={indecision} style={{ height: '12rem' }} />
                             <Card.Body style={{ color: "black" }}>
-                                <Card.Title>Hooks to do list</Card.Title>
+                                <Card.Title>To do app</Card.Title>
                                 <Card.Text>
-                                    Complete React hooks, HTML, CSS and Firbase.
+                                    Reactjs, HTML, Sass, Responsive and Firebase.
                             </Card.Text>
-                                <Card.Link href="https://reacthooks-ddcc5.firebaseapp.com/" className=" btn btn-success">View app</Card.Link>
+                                <Card.Link href="https://indecision-2bd03.firebaseapp.com/" className=" btn btn-success">View app</Card.Link>
                             </Card.Body>
                         </Card>
                     </div>

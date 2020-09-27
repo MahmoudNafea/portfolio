@@ -3,7 +3,6 @@ import ContactForm from './../components/contactForm';
 import linkedin from './../img/linkedin.png';
 import github from './../img/github.png';
 import stack from './../img/stack.jpg';
-import upwork from './../img/upwork.png';
 import { Container, Image } from 'react-bootstrap';
 
 const ContactPage = () => {
@@ -34,9 +33,6 @@ const ContactPage = () => {
                             </a>
                             <a href="https://stackoverflow.com/users/12745027/mahmoud-nafea" style={{ margin: "1rem " }}>
                                 <Image src={stack} fluid className="contact-img" />
-                            </a>
-                            <a href="https://www.upwork.com/freelancers/~0183f46b89593818a5" style={{ margin: "1rem " }}>
-                                <Image src={upwork} fluid className="contact-img" />
                             </a>
                         </div>
                     </div>
