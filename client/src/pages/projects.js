@@ -27,7 +27,7 @@ const Projects = () => {
                                 <Card.Text>
                                     React hooks, Nextjs, HTML, SASS and AWS.
                             </Card.Text>
-                                <Card.Link href="https://d30gfjuntwcssp.cloudfront.net/index.html" className=" btn btn-success">View app</Card.Link>
+                                <Card.Link href="https://d30gfjuntwcssp.cloudfront.net" className=" btn btn-success">View app</Card.Link>
                             </Card.Body>
                         </Card>
                     </div>
