@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e93a8bd.chunk.css",
-    "main.js": "/static/js/main.8b124192.chunk.js",
-    "main.js.map": "/static/js/main.8b124192.chunk.js.map",
+    "main.css": "/static/css/main.c8c02078.chunk.css",
+    "main.js": "/static/js/main.c5fe8228.chunk.js",
+    "main.js.map": "/static/js/main.c5fe8228.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5fe610d3.js",
     "runtime-main.js.map": "/static/js/runtime-main.5fe610d3.js.map",
     "static/css/2.764ccc25.chunk.css": "/static/css/2.764ccc25.chunk.css",
-    "static/js/2.e26918dc.chunk.js": "/static/js/2.e26918dc.chunk.js",
-    "static/js/2.e26918dc.chunk.js.map": "/static/js/2.e26918dc.chunk.js.map",
+    "static/js/2.01a75317.chunk.js": "/static/js/2.01a75317.chunk.js",
+    "static/js/2.01a75317.chunk.js.map": "/static/js/2.01a75317.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e99a9584b4f23b4cc963a3144588a855.js": "/precache-manifest.e99a9584b4f23b4cc963a3144588a855.js",
+    "precache-manifest.b74e2008338f7db24b24964c38c78f75.js": "/precache-manifest.b74e2008338f7db24b24964c38c78f75.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.4e93a8bd.chunk.css.map": "/static/css/main.4e93a8bd.chunk.css.map",
-    "static/js/2.e26918dc.chunk.js.LICENSE.txt": "/static/js/2.e26918dc.chunk.js.LICENSE.txt",
+    "static/css/main.c8c02078.chunk.css.map": "/static/css/main.c8c02078.chunk.css.map",
+    "static/js/2.01a75317.chunk.js.LICENSE.txt": "/static/js/2.01a75317.chunk.js.LICENSE.txt",
     "static/media/Zulu.PNG": "/static/media/Zulu.52b265c3.PNG",
     "static/media/accenture.jpg": "/static/media/accenture.1f77eaaa.jpg",
     "static/media/styles.scss": "/static/media/background.9c5c3df0.jpg",
@@ -29,13 +29,14 @@
     "static/media/stack.jpg": "/static/media/stack.349e75fd.jpg",
     "static/media/startUp.JPG": "/static/media/startUp.92196bc5.JPG",
     "static/media/topelectric.jpg": "/static/media/topelectric.5ba504f6.jpg",
-    "static/media/weather.PNG": "/static/media/weather.11b54263.PNG"
+    "static/media/weather.PNG": "/static/media/weather.11b54263.PNG",
+    "static/media/whip.jpeg": "/static/media/whip.5fff6112.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.5fe610d3.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.e26918dc.chunk.js",
-    "static/css/main.4e93a8bd.chunk.css",
-    "static/js/main.8b124192.chunk.js"
+    "static/js/2.01a75317.chunk.js",
+    "static/css/main.c8c02078.chunk.css",
+    "static/js/main.c5fe8228.chunk.js"
   ]
 }
