@@ -46,7 +46,7 @@ const Skills = () => {
                         <Image src={javascript} fluid style={{ height: '12rem', width: '12rem' }} />
                     </div>
                     <div style={{ margin: "1rem " }}>
-                        <label>Javascript, Nodejs, Reactjs</label>
+                        <label>Javascript, Nodejs, Reactjs, Angular</label>
                         <ProgressBar now={80} label={`${80}%`} />
                     </div>
                     <div style={{ margin: "1rem " }}>
