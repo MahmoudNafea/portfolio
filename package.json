@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/MahmoudNafea/portfolio#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "engines": {
     "node": "v12.10.0"
